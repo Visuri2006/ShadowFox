@@ -1,23 +1,13 @@
 # Car Selling Price Prediction using Machine Learning
 
 ## Project Overview
-This project predicts the selling price of used cars using Machine Learning techniques.  
-The model is trained using different car features such as fuel type, transmission type, kilometers driven, showroom price, owner details, and manufacturing year.
+This project focuses on predicting the selling price of used cars using Machine Learning techniques. The system analyzes various car-related features such as fuel type, transmission type, manufacturing year, showroom price, kilometers driven, and ownership details to estimate the approximate selling price of a car.
 
-The project also includes data visualization and performance evaluation of the model.
+The project includes data preprocessing, feature encoding, exploratory data analysis, data visualization, and model training using the Random Forest Regressor algorithm.
 
----
+Different visualizations such as selling price distribution, correlation heatmaps, fuel type distribution, and year-wise selling price analysis were generated to better understand the dataset and model behavior.
 
-## Features
-- Data preprocessing
-- Feature encoding
-- Exploratory Data Analysis (EDA)
-- Data visualization using graphs
-- Machine Learning model training
-- Car selling price prediction
-- Model accuracy evaluation
-
----
+The trained model achieved a high accuracy with an R² score of approximately 0.98, demonstrating effective prediction performance.
 
 ## Technologies Used
 - Python
@@ -27,60 +17,14 @@ The project also includes data visualization and performance evaluation of the m
 - Seaborn
 - Scikit-learn
 
----
-
 ## Machine Learning Algorithm
 - Random Forest Regressor
 
----
+## Output
+The system predicts the approximate selling price of used cars based on the given input features.
 
-## Dataset Information
-The dataset contains information about used cars, including:
-- Car Name
-- Year
-- Selling Price
-- Present Price
-- Kilometers Driven
-- Fuel Type
-- Seller Type
-- Transmission Type
-- Number of Owners
-
----
-
-## Project Structure
-
-Car-Selling-Price-Prediction/
-│
-├── dataset/
-│ └── car.csv
-│
-├── images/
-│
-├── src/
-│ └── main.py
-│
-├── requirements.txt
-│
-└── README.md
-
----
-
-## Visualizations
-The project generates multiple graphs such as:
-- Selling Price Distribution
-- Correlation Heatmap
-- Fuel Type Distribution
-- Transmission Type Distribution
-- Year vs Selling Price
-
----
-
-## Model Accuracy
-The Random Forest Regressor achieved an R² Score of approximately 0.98.
-
----
-
+## Author
+Visuri Chiluka
 ## How to Run the Project
 
 ### Step 1: Install Required Libraries
